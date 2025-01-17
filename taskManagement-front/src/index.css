@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 2rem;
+  background-color: rgb(39, 9, 32);
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.header{
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1{
+  padding: 12px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-create{
+  margin: 20px;
+  padding: 15px;
+  background-color: rgb(58, 19, 49);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.create{
+  margin: 2rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+.card-header{
+  padding-bottom: 1rem;
+}
+
+.card-body p{
+  padding-bottom: 11px;
+}
+
+.card-footer{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.btn-edit{
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid rgb(58, 19, 49);
+  color: black;
+  margin: 12px;
+
+}
+
+.btn-delete{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #7e0000;
+  font-size: 12px;
+  border: none;
+}
+
+form{
+  padding: 2rem;
+  border: 1px solid rgb(58, 19, 49);
+}
+
+.lb-inp{
+  
+  display: flex;
+  padding-bottom: 1rem;
+  flex-direction: column;
+}
+
+.lb-inp input{
+  margin-top: 4px;
+  border: collapse;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.btn-submit{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #470823;
+  font-size: 12px;
+  border: none;
+}
